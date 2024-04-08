@@ -14,3 +14,5 @@ export async function searchMovies(query: string): Promise<MovieDetails[]> {
 
   return results.results;
 }
+
+export { MovieListing } from "./listing";
